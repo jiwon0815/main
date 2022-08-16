@@ -1,0 +1,374 @@
+*{margin: 0; padding: 0;}
+a{color: black; text-decoration: none;}
+ul{list-style: none;}
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+/*글꼴
+font-family: 'Bangers', cursive;
+font-family: 'Noto Sans KR', sans-serif;
+*/
+
+/*nav꾸미기*/
+#nav{
+    width: 100%;
+    background-color: rgba(247, 239, 226, 0.8);
+    height: 120px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+.nav_inner{
+    width: 1320px;
+    margin: auto;
+    position: relative;
+}
+.nav_inner .logo{ 
+    position: absolute;
+    top: 20px;
+    left: 100px;
+}
+.nav_inner ul{
+    float: right;
+}
+.nav_inner ul li{
+    float: left;
+}
+.nav_inner ul li a{
+    display: block;
+    font-size: 30px;
+    font-family: 'Bangers';
+    color: #222a1b;
+    padding: 50px 50px;
+}
+/*nav호버꾸미기*/
+.nav_inner ul li a:hover{
+    color: #e53512;
+}
+
+/* banner */
+#banner{
+    overflow: hidden;
+}
+#banner ul li img{
+   /* float: left;*/
+     width: 100%; 
+     height: 893px;
+}
+/* banner 호버효과 */
+#banner ul li{
+    position: relative;
+    width: 33.33%;
+    overflow: hidden;
+    float: left;
+}
+.bannertext1{
+    position: absolute;
+    top: 120px;
+    left: 0;
+    background-color: rgba(23, 15, 8, 0.5);
+    width: 100%;
+    height: 773px;
+    text-align: center;
+    opacity: 0;
+    transition: all 1s;
+    box-sizing: border-box;
+}
+.bannertext{
+    position: absolute;
+    top: 120px;
+    left: 0;
+    background-color: rgba(23, 15, 8, 0.5);
+    width: 100%;
+    height: 773px;
+    text-align: center;
+    opacity: 0;
+    transition: all 1s;
+    box-sizing: border-box;
+}
+#banner ul li:hover .bannertext{
+    opacity: 1;
+}
+#banner ul li:hover .bannertext1{
+    opacity: 1;
+}
+.bannertext h1{
+    color: white;
+    padding-top: 40%;
+    font-size: 50px;
+    line-height: 55px;
+}
+.bannertext1 h1{
+    color: white;
+    padding-top: 41%;
+    font-size: 50px;
+    line-height: 55px;
+}
+/* NEW&BEST MD 
+#new{
+    width: 1320px;
+    margin:auto;
+    height: 910px;
+    background: url(../images/greencircle.jpg) no-repeat 50% 165px;
+}
+
+
+#new ul li{
+    float: left;
+     width: 33.33%; 
+   
+    text-align: center;
+}
+
+
+#new li p{
+    padding: 70px 0 50px 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+#new .li2{
+    padding-top: 41px;
+}
+#new .li3{
+    padding-top: 50px;
+}
+
+#new ul li:hover .motion{
+    transform:rotate(5deg);
+    transition: all 1s;
+}
+*/
+.click:hover{
+    transform:rotate(5deg);
+    transition: all 1s;
+}
+.new{
+    font-family: 'Bangers';
+    font-size: 40px;
+    color: #222a1b;
+    text-align: center;
+    margin: 100px 0 50px 0;
+}
+.slider{
+    text-align: center;
+}
+.slider div{
+    box-sizing: border-box;
+}
+.slider p{
+    font-size: 22px;
+    font-weight: bold;
+    color: #222a1b;
+    padding: 40px 0 40px;
+}
+.dalgona{
+    display: block;
+    padding-left: 109px;
+}
+.dalgona-2{
+    display: block;
+    padding-left: 61px;
+}
+.calendar{
+    display: block;
+    padding: 42px 0 0 92px ;
+}
+.calendar2{
+    display: block;
+    padding-left: 64px;
+}
+.choco{
+    display: block;
+    padding: 53px 0 0 53px;
+}
+.choco2{
+    display: block;
+    padding-left: 64px;
+}
+.cream{
+    display: block;
+    padding: 24px 0 0 96px;
+}
+.cream2{
+    display: block;
+    padding-left: 64px;
+}
+.cap{
+    display: block;
+    padding: 155px 0 0 48px;
+}
+.cap2{
+    display: block;
+    padding-left: 64px;
+}
+.cro{
+    display: block;
+    padding: 184px 0 0 41px;
+}
+.cro2{
+    padding-left: 64px;
+}
+
+/*brand소개*/
+#brand{
+    width: 1320px;
+    margin: auto;
+    margin-top: 100px;
+}
+#brand p{
+    text-align: center;
+    margin: auto;
+    width: 582px;
+    height: 90px;
+    box-sizing: border-box;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 31.01px;
+    color: white;
+    padding: 15px 50px;
+    background-color: #5f6e48;
+    margin-bottom: 100px;
+}
+#brand:hover .brandp{
+    background-color: #222a1b;
+}
+.b1{
+    display: block;
+    margin: auto;
+    margin-bottom: 100px;
+}
+.b2{
+    display: block;
+    margin: auto;
+    margin-bottom: 100px;
+}
+/* event */
+#event img{
+    width: 100%;
+    margin: auto;
+    display: block;
+    margin-bottom: 100px;
+}
+/*sns*/
+#communication{
+    width: 1320px;
+    height: 665px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+#communication h1{
+    font-family: 'Bangers';
+    font-size: 40px;
+    color: #222a1b;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.left{
+    width: 660px;
+    height: 585.08px;
+    float: left;
+}
+.left img{
+    width: 325px;
+    height: 287.54px;
+}
+.right{
+    width: 660px;
+    height: 600px;
+    float: right;
+}
+.l{
+    float: left;
+}
+.r, .big{
+    float: right;
+}
+.big{
+    width: 650px;
+    height: 586px;
+}
+.margin{
+    margin-bottom: 10px;
+}
+/* .overhidden{
+    overflow: hidden;
+} */
+#communication img:hover{
+    transform: scale(1.2, 1.2);
+    transition: all 1s;
+}
+#communication img{
+    display: block;
+}
+.overhidden{
+    width: 325px;
+    height: 287.54px;
+    overflow: hidden;
+}
+.overhidden2{
+    width: 650px;
+    height: 586px;
+    overflow: hidden;
+}
+/* footer */
+#footer{
+    width: 100%;
+    height: 241px;
+    background-color: #a3b495;
+} 
+.footer_inner{
+    width: 1320px;
+    margin: 50px auto;
+    position: relative;
+}
+.text{
+    position: absolute;
+    top: 20px;
+    left: 70px;
+}
+.text li{
+    float: left;
+}
+.text li a{
+    display: block;
+    padding: 0 30px;
+    font-size: 14px;
+    color: #222a1b;
+    font-weight: 600;
+}
+.text li a:hover{
+    color: #e53512;
+    text-decoration: underline;
+}
+.mainlogo{
+    position: absolute;
+    top: 90px;
+    left: 87px;
+}
+.footer_inner p{
+    position: absolute;
+    top: 135px;
+    left: 250px;
+    font-size: 14px;
+    color: #222a1b;
+    font-weight: 600;
+    line-height: 35px;
+}
+.sns{
+    position: absolute;
+    top: 150px;
+    right: 65px;
+}
+.sns li{
+    float: left;
+}
+.sns li a{
+    display: block;
+    padding: 0 10px;
+}
+.sns li a:hover{
+    opacity: 70%;
+}
